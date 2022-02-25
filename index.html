@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chittebabu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Nunito:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/chittebabu_favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/chittebabu_favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/chittebabu_favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <!-- About me section -->
+        <div class="header-content">
+          <div class="content-details">
+            <h1 id="name">CHITTEBABU</h1>
+            <h2 id="role">
+              <strong>Data Scientist</strong> |
+              <strong>Frontend Developer</strong>
+            </h2>
+            <p id="header-me">
+              As a Data Scientist, I focus on the secrets the data reveals
+              through inquisitive data wrangling. As a Frontend Developer, I
+              focus on creating great UIs with user-friendly functionality. I am
+              a strong believer in the phrase, "practice makes perfect" and my
+              daily routine involves polishing my Python and Javascript coding
+              skills. I live in daily gratitude for the blessings in my life and
+              the ever-lasting thirst for knowledge!
+            </p>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="/images/my_image.jpeg"
+                  alt="Image of chittebabu"
+                  id="profile-pic"
+                />
+              </div>
+              <div class="flip-card-back">
+                <p id="quote">
+                  "There is no greater weapon than a prepared mind." - Zhuge
+                  Liang
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <nav>
+        <!-- Nav bar -->
+        <div class="nav-bar">
+          <ul id="nav-list">
+            <li><a class="scroll" href="#education-page">EDUCATION</a></li>
+            <li><a class="scroll" href="#projects-page">PROJECTS</a></li>
+            <li><a class="scroll" href="#experiences-page">EXPERIENCES</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Education -->
+      <section class="education" id="education-page">
+        <p class="title"><strong>Education</strong></p>
+        <div class="education-div">
+          <section class="sect">
+            <div class="column column-1">
+              <h2 class="course">Diploma in Data Science</h2>
+              <h3 class="provider">Lithan Academy</h3>
+              <h3 class="year">2022</h3>
+            </div>
+            <div class="column column-2">
+              <p class="modules">6 modules:</p>
+              <ul class="list-education">
+                <li>Microsoft Power BI</li>
+                <li>Data Query Languages</li>
+                <li>R Programming for Statistics</li>
+                <li>Machine Learning with Python</li>
+                <li>Azure Machine Learning</li>
+                <li>Apache Spark</li>
+              </ul>
+            </div>
+          </section>
+          <section class="sect">
+            <div class="column column-1">
+              <h2 class="course">
+                Professional Certification in Digital Marketing
+              </h2>
+              <h3 class="provider">Equinet Academy</h3>
+              <h3 class="year">2019</h3>
+            </div>
+            <div class="column column-2">
+              <p class="modules">6 modules:</p>
+              <ul class="list-education">
+                <li>Google Analytics</li>
+                <li>Content Marketing</li>
+                <li>SEO</li>
+                <li>Social Media Marketing</li>
+                <li>Creative Marketing</li>
+                <li>Digital Marketing Strategies</li>
+              </ul>
+            </div>
+          </section>
+          <section class="sect">
+            <div class="column column-1">
+              <h2 class="course">Certification in Blockchain Technologies</h2>
+              <h3 class="provider">NTUC Learning Hub</h3>
+              <h3 class="year">2021</h3>
+            </div>
+            <div class="column column-2">
+              <p class="modules">Short Courses:</p>
+              <ul class="list-education">
+                <li>Blockchain for Corporate Compliance</li>
+                <li>Blockchain for Cross Border Payment</li>
+                <li>Machine Learning & Advanced Analytics using Python</li>
+              </ul>
+            </div>
+          </section>
+          <section id="full-list">
+            <a
+              href="https://www.linkedin.com/in/chittebabu/details/certifications/"
+              target="_blank"
+              id="linkedin"
+              >Click here to view my full list of certifications</a
+            >
+          </section>
+        </div>
+      </section>
+      <!-- Projects -->
+      <section class="projects" id="projects-page">
+        <p class="title">Projects</p>
+        <section class="sect">
+          <div class="column-new">
+            <img
+              class="project-img"
+              onclick="enlargeImg(this)"
+              ondblclick="minImg(this)"
+              src="/images/jupyter_notebook.png"
+              alt="Data science projects"
+              id="img-1"
+            />
+          </div>
+          <div class="column-new">
+            <h2>Data Science</h2>
+            <a
+              href="https://www.kaggle.com/chittebabu/titanic-data-analysis"
+              target="_blank"
+              class="project-data"
+              >Titanic Data Analysis</a
+            ><br /><br />
+            <a
+              href="https://www.kaggle.com/chittebabu/ethereum-price-prediction"
+              target="_blank"
+              class="project-data"
+              >Ethereum Price Prediction</a
+            ><br /><br />
+            <a
+              href="https://www.kaggle.com/chittebabu/web-scraping-nba-playerstats"
+              target="_blank"
+              class="project-data"
+              >NBA Player Stats Web Scraping</a
+            >
+          </div>
+          <div class="column-new list-skills">
+            <h2>Skills & Tools</h2>
+            <ul>
+              <li>Excel</li>
+              <li>Python</li>
+              <li>Jupyter Notebook</li>
+            </ul>
+          </div>
+        </section>
+        <section class="sect">
+          <div class="column-new">
+            <img
+              class="project-img"
+              onclick="enlargeImg(this)"
+              ondblclick="minImg(this)"
+              src="/images/website.png"
+              alt="Frontend projects"
+              id="img-2"
+            />
+          </div>
+          <div class="column-new">
+            <h2>Frontend Projects</h2>
+            <a
+              href="https://www.jassnft.art/"
+              target="_blank"
+              class="project-data frontend"
+              >Jass NFT Art</a
+            ><br /><br />
+            <a href="#" class="project-data frontend">Chittebabu</a>
+          </div>
+          <div class="column-new list-skills">
+            <h2>Skills & Tools</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Github</li>
+              <li>Visual Studio Code</li>
+            </ul>
+          </div>
+        </section>
+      </section>
+      <!-- Experiences -->
+      <section class="experiences" id="experiences-page">
+        <p class="title">Experiences</p>
+        <section class="sect sect-class">
+          <div class="column column-3">
+            <h2 class="company">Freelance</h2>
+            <h3 class="year">2015 - 2020</h3>
+          </div>
+          <div class="column column-4">
+            <h2 class="role">Music Producer</h2>
+            <h3 class="duties">
+              <ul>
+                <li>Audio engineering and sound design</li>
+                <li>Create marketing contents</li>
+                <li>Run digital marketing campaigns</li>
+              </ul>
+            </h3>
+          </div>
+        </section>
+        <section class="sect sect-class">
+          <div class="column column-3">
+            <h2 class="company">Prodigy Global Solutions Pte. Ltd.</h2>
+            <h3 class="year">2013 - 2015</h3>
+          </div>
+          <div class="column column-4">
+            <h2 class="role">Managing Director</h2>
+            <h3 class="duties">
+              <ul>
+                <li>Oversee company's directives</li>
+                <li>Run marketing campaigns</li>
+                <li>Build partnerships</li>
+              </ul>
+            </h3>
+          </div>
+        </section>
+        <div class="photos">
+          <img
+            class="pgs"
+            src="/images/interview-sph.jpeg"
+            alt="interview"
+            title="Interview by Berita Harian"
+          />
+          <img
+            class="pgs"
+            src="/images/media-article.jpeg"
+            alt="newspaper article"
+            title="Berita Harian"
+          />
+          <img
+            class="pgs"
+            src="/images/seminar-1.jpeg"
+            alt="seminar talk"
+            title="Seminar at SMU"
+          />
+          <img
+            class="pgs"
+            src="/images/seminar-2.jpeg"
+            alt="seminar talk"
+            title="Seminar at SMU"
+          />
+          <img
+            class="pgs"
+            src="/images/airshow.jpeg"
+            alt="at air ahow"
+            title="Marketing agency for Air Show"
+          />
+        </div>
+        <section class="sect sect-class">
+          <div class="column column-3">
+            <h2 class="company">Traders Round Table Pte. Ltd.</h2>
+            <h3 class="year">2013</h3>
+          </div>
+          <div class="column column-4">
+            <h2 class="role">Business Consultant</h2>
+            <h3 class="duties">
+              <ul>
+                <li>Organise and co-run events</li>
+                <li>Coordinate with event promoters and agents</li>
+                <li>Acquire new clients</li>
+              </ul>
+            </h3>
+          </div>
+        </section>
+        <section class="sect sect-class">
+          <div class="column column-3">
+            <h2 class="company">Cayman Management Pte. Ltd.</h2>
+            <h3 class="year">2012</h3>
+          </div>
+          <div class="column column-4">
+            <h2 class="role">Business Development Manager</h2>
+            <h3 class="duties">
+              <ul>
+                <li>Plan and execute marketing initiatives</li>
+                <li>Manage sales team</li>
+                <li>Collaborate with advertising agencies</li>
+              </ul>
+            </h3>
+          </div>
+        </section>
+        <section class="sect sect-class">
+          <div class="column column-3">
+            <h2 class="company">Appco Group Asia</h2>
+            <h3 class="year">2008 - 2012</h3>
+          </div>
+          <div class="column column-4">
+            <h2 class="role">Sales Manager</h2>
+            <h3 class="duties">
+              <ul>
+                <li>Spearhead sales and marketing team</li>
+                <li>Manage sales event set-ups</li>
+                <li>Run product and sales trainings</li>
+              </ul>
+            </h3>
+          </div>
+        </section>
+        <div class="photos">
+          <img
+            class="pgs"
+            src="/images/top-fundraiser.jpeg"
+            alt="top fundraiser 2008"
+            title="Top Fundraiser in 2008"
+          />
+          <img
+            class="pgs"
+            src="/images/manager-promotion.jpeg"
+            alt="promotion"
+            title="Sales Manager promotion"
+          />
+          <img
+            class="pgs"
+            src="/images/awards.jpeg"
+            alt="leadership awards"
+            title="Leadership Excellence awards"
+          />
+          <img
+            class="pgs"
+            src="/images/medals.jpeg"
+            alt="sales medals"
+            title="Sales Achievement medals"
+          />
+          <img
+            class="pgs"
+            src="/images/group-1.jpeg"
+            alt="group photo"
+            title="Delegates in Bangkok for conference"
+          />
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="details">
+          <div class="details-1 contact">
+            <h3 class="details-2 contact-me">Contact me:</h3>
+            <h2 class="contact-method hp">+65 9451 4340</h2>
+            <h2 class="contact-method email">chittebabu@email.com</h2>
+          </div>
+          <div class="details-1 follow">
+            <h3 class="details-2 follow-me">Follow me @</h3>
+            <a
+              class="link-logo"
+              href="https://github.com/chittebabu21"
+              target="_blank"
+            >
+              <img
+                class="logo"
+                src="/brand_logos/GitHub-Mark-64px.png"
+                alt="github logo"
+              />
+            </a>
+            <a
+              class="link-logo"
+              href="https://www.linkedin.com/in/chittebabu/"
+              target="_blank"
+              ><img
+                class="logo"
+                src="/brand_logos/LI-In-Bug.png"
+                alt="linkedin logo"
+                id="linkedin-logo"
+            /></a>
+            <a
+              class="link-logo"
+              href="https://www.instagram.com/chittebabu/"
+              target="_blank"
+              ><img
+                class="logo"
+                src="/brand_logos/instagram-logo-vector-brandlogos.net.jpg"
+                alt="instagram logo"
+                id="instagram"
+            /></a>
+            <a
+              class="link-logo"
+              href="https://open.spotify.com/artist/6Duj1DqYXROTFXDGO15QN3?si=ytiff0ICSbux_AZd99ZInA"
+              target="_blank"
+              ><img
+                class="logo"
+                src="/brand_logos/spotify-brandlogo.net.png"
+                alt="spotify"
+                id="spotify"
+            /></a>
+          </div>
+        </div>
+        <p id="copyright">&copy; Chittebabu 2022</p>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
