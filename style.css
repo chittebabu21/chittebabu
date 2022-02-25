@@ -511,6 +511,9 @@ aside {
   ul li {
     font-size: 80%;
   }
+  img {
+    height: fit-content;
+  }
   .contact-method {
     font-size: 70%;
     margin: 0;
